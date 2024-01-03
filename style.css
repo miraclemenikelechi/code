@@ -1,30 +1,36 @@
-
-.container {
+/* .container {
     display: grid;
     grid-template-columns: 300px 750px 600px;
     align-items: center;
-   border: 2px solid black; 
-   width: 1660px;
-   background-color: black;
-   color: white;
+    border: 2px solid black;
+    width: 1660px;
+    background-color: black;
+    color: white;
 }
+
 .container div {
     padding: 10px;
-}
-.left {
+} */
+
+
+
+/* .left {
     width: 250px;
     height: 70px;
-}
-.topbar-helpcenter {
+} */
+
+/* .topbar-helpcenter {
     color: white;
     margin-right: 35px;
     font-size: 36px;
     font-weight: 400;
-}
-a:hover{
+} */
+
+/* a:hover {
     text-decoration: underline;
-}
-.submit {
+} */
+
+/* .submit {
     width: 250px;
     height: 56px;
     border: 1px solid white;
@@ -34,16 +40,18 @@ a:hover{
     font-size: 24px;
     font-weight: 400;
     margin-top: 18px;
-}
+} */
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     place-items: center;
     height: 400px;
-    background-color:#DADBF1;
+    background-color: #DADBF1;
 }
-.sign {
+
+/* .sign {
     width: 136px;
     height: 58px;
     border: 1px solid transparent;
@@ -53,14 +61,17 @@ a:hover{
     color: white;
     font-size: 24px;
     font-weight: 400;
-}
+} */
+
 .help {
     font-size: 80px;
     margin-top: 50px;
 }
+
 .item {
     position: relative;
 }
+
 .place {
     width: 700px;
     height: 60px;
@@ -68,61 +79,174 @@ a:hover{
     font-size: 20px;
     padding: 16px;
 }
+
 .arrow-svg {
-width: 28px;
-position: absolute;
-right: 10px;
+    width: 28px;
+    position: absolute;
+    right: 10px;
 }
-.arrow-svg:hover{
-fill: #4C5FD5;
+
+.arrow-svg:hover {
+    fill: #4C5FD5;
 }
+
 .grid {
     display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        height: 800px;
-        place-items: center;
-        max-width: 1170;
-        background-color: white;
-        }
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 800px;
+    place-items: center;
+    max-width: 1170;
+    background-color: white;
+}
+
 .grid-items img {
     width: 70px;
     float: left;
     margin-left: 60px;
-    m
 }
+
 .category-list-title {
     font-weight: 700;
 }
+
 .category-list-des {
     font-size: 20px;
     width: 350px;
     margin-left: 80px;
 }
+
 .category-list-link {
     color: #4C5FD5;
     margin-left: 150px;
 }
+
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 1660px;
-    height:300px;
+    height: 300px;
     background-color: black;
     color: white;
     line-height: 24px;
 
 }
+
 .footer a {
     display: block;
-    color: white; 
+    color: white;
 
 }
+
 .abstract-logo-footer {
     width: 80px;
 }
+
 .u-user-lauchercolour:not([disabled]) {
     background-color: #4C5FD5;
     color: white;
+}
+
+
+
+/*  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* border: 4px solid red; */
+    display: grid;
+    height: 100%;
+}
+
+/* .header {
+    &__wrapper {
+        border: 16px solid green;
+    }
+
+    &__navigation {
+        display: grid;
+
+        background-color: yellow;
+    }
+} */
+
+.header__wrapper {
+    /* border: 4px solid green */
+    display: grid;
+}
+
+.header__navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    /* height: 100px; */
+    padding: 16px 160px;
+
+}
+
+.header__left {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header__logo {
+    width: 126px;
+    height: 32px;
+    display: inline-block;
+}
+
+hr {
+    height: 100%;
+    color: white;
+    width: 2px;
+}
+
+.header__link {
+    font-size: 24px;
+    color: white;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.header__button {
+    color: white;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 8px 24px;
+    border: none;
+}
+
+.header__button-big {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.header__button-small {
+    background-color: #4C5FD5;
+}
+
+.header__button-small:hover {
+    background-color: white;
+    color: #4C5FD5;
 }
