@@ -1,0 +1,128 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 750px 600px;
+    align-items: center;
+   border: 2px solid black; 
+   width: 1660px;
+   background-color: black;
+   color: white;
+}
+.container div {
+    padding: 10px;
+}
+.left {
+    width: 250px;
+    height: 70px;
+}
+.topbar-helpcenter {
+    color: white;
+    margin-right: 35px;
+    font-size: 36px;
+    font-weight: 400;
+}
+a:hover{
+    text-decoration: underline;
+}
+.submit {
+    width: 250px;
+    height: 56px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    height: 400px;
+    background-color:#DADBF1;
+}
+.sign {
+    width: 136px;
+    height: 58px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #4C5FD5;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.help {
+    font-size: 80px;
+    margin-top: 50px;
+}
+.item {
+    position: relative;
+}
+.place {
+    width: 700px;
+    height: 60px;
+    margin-top: -50px;
+    font-size: 20px;
+    padding: 16px;
+}
+.arrow-svg {
+width: 28px;
+position: absolute;
+right: 10px;
+}
+.arrow-svg:hover{
+fill: #4C5FD5;
+}
+.grid {
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 800px;
+        place-items: center;
+        max-width: 1170;
+        background-color: white;
+        }
+.grid-items img {
+    width: 70px;
+    float: left;
+    margin-left: 60px;
+    m
+}
+.category-list-title {
+    font-weight: 700;
+}
+.category-list-des {
+    font-size: 20px;
+    width: 350px;
+    margin-left: 80px;
+}
+.category-list-link {
+    color: #4C5FD5;
+    margin-left: 150px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 1660px;
+    height:300px;
+    background-color: black;
+    color: white;
+    line-height: 24px;
+
+}
+.footer a {
+    display: block;
+    color: white; 
+
+}
+.abstract-logo-footer {
+    width: 80px;
+}
+.u-user-lauchercolour:not([disabled]) {
+    background-color: #4C5FD5;
+    color: white;
+}
